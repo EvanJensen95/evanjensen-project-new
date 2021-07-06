@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-
 const app = express();
 const path = require('path');
 
@@ -11,6 +10,12 @@ app.use(express.json());
 app.get('/', function(req, res) {
     res.sendFile( path.join(__dirname, 'index.html') );
 })
+
+app.get('/styles', function(req, res) {
+    res.sendFile( path.join(__dirname, 'styles.css') );
+})
+
+
 app.get('/api/moods', (req, res) => {
     const moods = ['Feeling Great', 'Confused', 'Thirsty', 'Feeling Sick', 'Tired', 'Loving', 'Feeling Cute', 'Flirty', 'Done With Today']
 
