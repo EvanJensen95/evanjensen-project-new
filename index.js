@@ -74,4 +74,4 @@ app.get('/api/about', (req, res) => {
 
 
 
-app.listen(5050, () => console.log('Dr Steve Brule is jamming on server 5050 aka the CHECK IT OUT server!'))
+app.listen(5000, () => console.log('Dr Steve Brule is jamming on server 5000 aka the CHECK IT OUT server!'))
