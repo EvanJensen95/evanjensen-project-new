@@ -5,8 +5,11 @@ const app = express();
 
 app.use(cors());
 
-
 app.use(express.json());
+
+app.get('/', function(req, res) {
+    res.sendFile( path.join(__dirname, 'index.html') );
+})
 
 app.get('/api/moods', (req, res) => {
     const moods = ['Feeling Great', 'Confused', 'Thirsty', 'Feeling Sick', 'Tired', 'Loving', 'Feeling Cute', 'Flirty', 'Done With Today']
