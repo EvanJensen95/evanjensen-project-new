@@ -14,7 +14,9 @@ app.get('/', function(req, res) {
 app.get('/styles', function(req, res) {
     res.sendFile( path.join(__dirname, 'styles.css') );
 })
-
+app.get('/js', function(req, res) {
+    res.sendFile( path.join(__dirname, 'index.js') )
+})
 
 app.get('/api/moods', (req, res) => {
     const moods = ['Feeling Great', 'Confused', 'Thirsty', 'Feeling Sick', 'Tired', 'Loving', 'Feeling Cute', 'Flirty', 'Done With Today']
