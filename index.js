@@ -7,16 +7,23 @@ app.use(cors());
 
 app.use(express.json());
 
-app.get('/', function(req, res) {
-    res.sendFile( path.join(__dirname, 'index.html') );
-})
+app.use(express.static(path.join(__dirname, '/public')))
 
-app.get('/styles', function(req, res) {
-    res.sendFile( path.join(__dirname, 'styles.css') );
+app.use('/styles', express.static(path.join(__dirname, '/public/styles.css')))
+
+app.get('/', (req, res) => {
+    res.sendFile('index.html')
 })
-app.get('/js', function(req, res) {
-    res.sendFile( path.join(__dirname, 'index.js') )
-})
+// app.get('/', function(req, res) {
+//     res.sendFile( path.join(__dirname, '/public/index.html') );
+// })
+
+// app.get('/styles', function(req, res) {
+//     res.sendFile( path.join(__dirname, './pubic/styles.css') );
+// })
+// app.get('/js', function(req, res) {
+//     res.sendFile( path.join(__dirname, 'index.js') )
+// })
 
 app.get('/api/moods', (req, res) => {
     const moods = ['Feeling Great', 'Confused', 'Thirsty', 'Feeling Sick', 'Tired', 'Loving', 'Feeling Cute', 'Flirty', 'Done With Today']
