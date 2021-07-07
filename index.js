@@ -11,6 +11,8 @@ app.use(express.static(path.join(__dirname, '/public')))
 
 app.use('/styles', express.static(path.join(__dirname, '/public/styles.css')))
 
+app.use(express.static(path.join(__dirname, '/api/moods')))
+
 app.get('/', (req, res) => {
     res.sendFile('index.html')
 })

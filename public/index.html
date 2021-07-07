@@ -128,7 +128,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         document.getElementById('moodButton').addEventListener ('click', function () {
-            axios.get("http://localhost:5050/api/moods")
+            axios.get("http://localhost:5000/api/moods")
             .then(function (response) {
                 const data = response.data
                 alert(data)
@@ -137,14 +137,14 @@
 
         document.getElementById('submitMoodButton').addEventListener('click',
         function () {
-            axios.get("http://localhost:5050/api/responses")
+            axios.get("http://localhost:5000/api/responses")
             .then(function (response) {
                 const data = response.data
                 alert(data)
             });
         })
         document.getElementById("submitReviewButton").addEventListener('click', function (){
-            axios.get("http://localhost:5050/api/review")
+            axios.get("http://localhost:5000/api/review")
             .then(function (response) {
                 const data = response.data
                 alert(data)
@@ -153,7 +153,7 @@
         })
 
         document.getElementById("aboutButton").addEventListener('click', function (){
-            axios.get("http://localhost:5050/api/about")
+            axios.get("http://localhost:5000/api/about")
             .then(function (response) {
                 const data = response.data
                 alert(data)
