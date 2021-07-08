@@ -3,7 +3,7 @@
 
 ## Table of Contents:
 * [Technologies Used](#technologiesused)
-* [How to locally run Dr. Brules Mood Reading Extravaganza](#runlocally)
+* [Access Dr. Brules Mood Reading Extravaganza](#runApp)
 
 ## <a name="technologiesused"></a>Technologies Used
 
@@ -15,8 +15,8 @@
 * Node.js
 * JSON
 
-## <a name="runlocally"></a>Link to run locally
-### <a href='https://dr-steve-brule-mood-reader.herokuapp.com/' target='_blank"
+## <a name="runApp"></a>Link to the app
+### Link to app'https://dr-steve-brule-mood-reader.herokuapp.com/
 
 ## <a name="howtouse"></a>How to use mood reader
 
