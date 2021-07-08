@@ -16,7 +16,13 @@
 * JSON
 
 ## <a name="runApp"></a>Link to the app
-### Link to app'https://dr-steve-brule-mood-reader.herokuapp.com/
+### Link to app https://dr-steve-brule-mood-reader.herokuapp.com/
 
 ## <a name="howtouse"></a>How to use mood reader
+### Feature 1
+* Insert first name
+* Insert last name
+* Insert age
+* Insert favorite color
+* Insert favorite food
 
