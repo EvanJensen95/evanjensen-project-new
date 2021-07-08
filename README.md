@@ -20,9 +20,36 @@
 
 ## <a name="howtouse"></a>How to use mood reader
 ### Feature 1
+#### Survey
 * Insert first name
 * Insert last name
 * Insert age
 * Insert favorite color
 * Insert favorite food
+* Submit 
+
+#### Alerted that submit was successful
+
+### Scroll down and see 9 moods that you can choose from.
+
+### Feature 2
+#### Mood Selection
+* Choose what mood you are in
+* Submit
+
+#### Alerted by Dr. Brule himself that submit was successful.
+
+### Feature 3
+#### Magic Mood Reading Button
+* Press button
+
+#### Alerted with what mood Dr. Brule thinks you chose.
+
+### Feature 4
+#### Review Box
+* Leave a review for Dr. Brule
+
+### Extra Feature
+#### Videos of Dr. Brule's adventures
+
 
