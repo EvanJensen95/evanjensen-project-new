@@ -74,6 +74,6 @@ app.get('/api/about', (req, res) => {
 
 
 
+const port = 5000
 
-
-app.listen(5000, () => console.log('Dr Steve Brule is jamming on server 5000 aka the CHECK IT OUT server!'))
+app.listen(port, () => console.log('Dr Steve Brule is jamming on server 5000 aka the CHECK IT OUT server!'))
