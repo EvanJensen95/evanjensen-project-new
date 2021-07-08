@@ -15,7 +15,7 @@
 * JSON
 
 ## <a name="runlocally"></a>Link to run locally
-### Need to get link on Heroku 
+### https://dr-steve-brule-mood-reader.herokuapp.com/
 
 ## <a name="howtouse"></a>How to use mood reader
 
