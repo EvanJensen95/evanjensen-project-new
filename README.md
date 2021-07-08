@@ -15,7 +15,7 @@
 * JSON
 
 ## <a name="runlocally"></a>Link to run locally
-### http://127.0.0.1:5502/client/index.html
+### Need to get link on Heroku 
 
 ## <a name="howtouse"></a>How to use mood reader
 
